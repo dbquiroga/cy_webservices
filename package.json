@@ -1,0 +1,15 @@
+{
+  "name": "cy_webservices",
+  "version": "1.0.0",
+  "description": "Interaction with Swagger Petstore using cypress and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
