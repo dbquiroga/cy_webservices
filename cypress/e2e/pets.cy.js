@@ -9,6 +9,14 @@ describe("Webservices swagger petstore", () => {
     endpoinstPets.createPet().then((result) => {
       expect(result.status).to.be.equal(200);
     });
+
+    endpoinstPets.updatePet().then((result) => {
+      expect(result.status).to.be.equal(200);
+    });
+
+    endpoinstPets.getPetStatus().then((result) => {
+      expect(result.status).to.be.equal(200);
+    });
   });
 });
 
